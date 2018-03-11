@@ -41,6 +41,8 @@
 			<Item Name="sclc.aliases" Type="Document" URL="../sclc.aliases"/>
 			<Item Name="sclc.lvlps" Type="Document" URL="../sclc.lvlps"/>
 		</Item>
+		<Item Name="generate_unique_pulsed_filename.vi" Type="VI" URL="../SubVIs/generate_unique_pulsed_filename.vi"/>
+		<Item Name="measure_pulse_sweep.vi" Type="VI" URL="../SubVIs/measure_pulse_sweep.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Keithley 24XX.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Keithley 24XX/Keithley 24XX.lvlib"/>
