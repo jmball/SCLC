@@ -18,11 +18,13 @@
 				<Item Name="delete_scan_settings.vi" Type="VI" URL="../SubVIs/delete_scan_settings.vi"/>
 				<Item Name="generate_unique_filename.vi" Type="VI" URL="../SubVIs/generate_unique_filename.vi"/>
 				<Item Name="generate_unique_j-t_filename.vi" Type="VI" URL="../SubVIs/generate_unique_j-t_filename.vi"/>
+				<Item Name="generate_unique_pulsed_filename.vi" Type="VI" URL="../SubVIs/generate_unique_pulsed_filename.vi"/>
 				<Item Name="generate_unique_stabilisation_filename.vi" Type="VI" URL="../SubVIs/generate_unique_stabilisation_filename.vi"/>
 				<Item Name="initialise_keithley_j-t.vi" Type="VI" URL="../SubVIs/initialise_keithley_j-t.vi"/>
 				<Item Name="initialise_keithley_j-v.vi" Type="VI" URL="../SubVIs/initialise_keithley_j-v.vi"/>
 				<Item Name="load_saved_scan_settings.vi" Type="VI" URL="../SubVIs/load_saved_scan_settings.vi"/>
 				<Item Name="Login_dialog.vi" Type="VI" URL="../SubVIs/Login_dialog.vi"/>
+				<Item Name="measure_pulse_sweep.vi" Type="VI" URL="../SubVIs/measure_pulse_sweep.vi"/>
 				<Item Name="pre-bias.vi" Type="VI" URL="../SubVIs/pre-bias.vi"/>
 				<Item Name="save_data.vi" Type="VI" URL="../SubVIs/save_data.vi"/>
 				<Item Name="save_scan_settings.vi" Type="VI" URL="../SubVIs/save_scan_settings.vi"/>
@@ -41,8 +43,6 @@
 			<Item Name="sclc.aliases" Type="Document" URL="../sclc.aliases"/>
 			<Item Name="sclc.lvlps" Type="Document" URL="../sclc.lvlps"/>
 		</Item>
-		<Item Name="generate_unique_pulsed_filename.vi" Type="VI" URL="../SubVIs/generate_unique_pulsed_filename.vi"/>
-		<Item Name="measure_pulse_sweep.vi" Type="VI" URL="../SubVIs/measure_pulse_sweep.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Keithley 24XX.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Keithley 24XX/Keithley 24XX.lvlib"/>
