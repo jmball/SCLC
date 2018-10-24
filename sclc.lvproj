@@ -30,6 +30,8 @@
 				<Item Name="save_scan_settings.vi" Type="VI" URL="../SubVIs/save_scan_settings.vi"/>
 				<Item Name="sort_scan_settings.vi" Type="VI" URL="../SubVIs/sort_scan_settings.vi"/>
 				<Item Name="sweep_setup.vi" Type="VI" URL="../SubVIs/sweep_setup.vi"/>
+				<Item Name="write_headers_to_data_file.vi" Type="VI" URL="../SubVIs/write_headers_to_data_file.vi"/>
+				<Item Name="write_scan_settings_to_data_file.vi" Type="VI" URL="../SubVIs/write_scan_settings_to_data_file.vi"/>
 			</Item>
 			<Item Name="TypeDefs" Type="Folder">
 				<Item Name="details.ctl" Type="VI" URL="../TypeDefs/details.ctl"/>
@@ -43,8 +45,6 @@
 			<Item Name="sclc.aliases" Type="Document" URL="../sclc.aliases"/>
 			<Item Name="sclc.lvlps" Type="Document" URL="../sclc.lvlps"/>
 		</Item>
-		<Item Name="write_headers_to_data_file.vi" Type="VI" URL="../SubVIs/write_headers_to_data_file.vi"/>
-		<Item Name="write_scan_settings_to_data_file.vi" Type="VI" URL="../SubVIs/write_scan_settings_to_data_file.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Keithley 24XX.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Keithley 24XX/Keithley 24XX.lvlib"/>
@@ -78,6 +78,48 @@
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="sclc" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{9C383574-9EEA-421F-8E13-3651EEE33B07}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{00039459-DECA-4332-8356-DDE92892EB93}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{FEF43E54-4DC0-4016-9604-CFC4E1C59F6E}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">sclc</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/sclc</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{6508D810-2B31-4DD7-BF0E-53B3AF1334C8}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">sclc.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/sclc/sclc.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/sclc/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B0423D81-C5F7-4D97-B9A3-3BD3A81A5D1A}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SCLC/main.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">University of Oxford</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">sclc</Property>
+				<Property Name="TgtF_internalName" Type="Str">sclc</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2018 University of Oxford</Property>
+				<Property Name="TgtF_productName" Type="Str">sclc</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{C036C1F0-5374-4620-B6E6-2E924C3C3DCC}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">sclc.exe</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
