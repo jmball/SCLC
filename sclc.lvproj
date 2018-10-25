@@ -31,6 +31,8 @@
 				<Item Name="sort_scan_settings.vi" Type="VI" URL="../SubVIs/sort_scan_settings.vi"/>
 				<Item Name="sweep_setup.vi" Type="VI" URL="../SubVIs/sweep_setup.vi"/>
 				<Item Name="write_headers_to_data_file.vi" Type="VI" URL="../SubVIs/write_headers_to_data_file.vi"/>
+				<Item Name="write_jt_headers_to_data_file.vi" Type="VI" URL="../SubVIs/write_jt_headers_to_data_file.vi"/>
+				<Item Name="write_jt_scan_settings_to_data_file.vi" Type="VI" URL="../SubVIs/write_jt_scan_settings_to_data_file.vi"/>
 				<Item Name="write_scan_settings_to_data_file.vi" Type="VI" URL="../SubVIs/write_scan_settings_to_data_file.vi"/>
 			</Item>
 			<Item Name="TypeDefs" Type="Folder">
@@ -45,8 +47,6 @@
 			<Item Name="sclc.aliases" Type="Document" URL="../sclc.aliases"/>
 			<Item Name="sclc.lvlps" Type="Document" URL="../sclc.lvlps"/>
 		</Item>
-		<Item Name="write_jt_headers_to_data_file.vi" Type="VI" URL="../SubVIs/write_jt_headers_to_data_file.vi"/>
-		<Item Name="write_jt_scan_settings_to_data_file.vi" Type="VI" URL="../SubVIs/write_jt_scan_settings_to_data_file.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Keithley 24XX.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Keithley 24XX/Keithley 24XX.lvlib"/>
@@ -96,7 +96,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6508D810-2B31-4DD7-BF0E-53B3AF1334C8}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">sclc.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/sclc/sclc.exe</Property>
