@@ -45,6 +45,8 @@
 			<Item Name="sclc.aliases" Type="Document" URL="../sclc.aliases"/>
 			<Item Name="sclc.lvlps" Type="Document" URL="../sclc.lvlps"/>
 		</Item>
+		<Item Name="write_jt_headers_to_data_file.vi" Type="VI" URL="../SubVIs/write_jt_headers_to_data_file.vi"/>
+		<Item Name="write_jt_scan_settings_to_data_file.vi" Type="VI" URL="../SubVIs/write_jt_scan_settings_to_data_file.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Keithley 24XX.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Keithley 24XX/Keithley 24XX.lvlib"/>
